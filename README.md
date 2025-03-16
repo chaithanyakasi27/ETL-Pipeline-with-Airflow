@@ -1,6 +1,6 @@
 
 # Real-Time Twitter Data Pipeline with Airflow and AWS
-![Real-Time Twitter Data Pipeline with Airflow and AWS](Bitbucket Images/project diagram.png)
+![Real-Time Twitter Data Pipeline with Airflow and AWS](https://raw.githubusercontent.com/chaithanyakasi27/ETL-Pipeline-with-Airflow/refs/heads/main/Bitbucket%20Images/project%20diagram.png)
 
 
 This project provides a comprehensive solution for capturing, processing, and storing real-time Twitter data using Python, Tweepy, Apache Airflow, and AWS services. The pipeline automates the entire workflow, making it scalable and efficient for handling streaming data from Twitter's API.
@@ -71,7 +71,7 @@ Follow these steps to configure your Twitter API credentials for the project:
 ---
 
 ## Prerequisites
-![Installation](Bitbucket Images/ubuntu installation.png)
+![Installation](https://raw.githubusercontent.com/chaithanyakasi27/ETL-Pipeline-with-Airflow/refs/heads/main/Bitbucket%20Images/ubuntu%20installation.png)
 
 1. Python 3.x
 2. Pandas (`pip install pandas`)
@@ -104,7 +104,7 @@ Follow these steps to configure your Twitter API credentials for the project:
 ---
 
 ## Hosting Airflow on AWS EC2
-![EC2 Instance](Bitbucket Images/EC2.png)
+![EC2 Instance](https://raw.githubusercontent.com/chaithanyakasi27/ETL-Pipeline-with-Airflow/refs/heads/main/Bitbucket%20Images/EC2.png)
 
 ### Step 1: Create a VPC
 - Configure a public subnet for security and provide public DNS.
@@ -118,7 +118,7 @@ Follow these steps to configure your Twitter API credentials for the project:
 5. Launch the EC2 instance.
 
 ### Step 3: Connect to EC2 Instance
-![Connect EC2](Bitbucket Images/Ec2 Connect to instance.png)
+![Connect EC2](https://raw.githubusercontent.com/chaithanyakasi27/ETL-Pipeline-with-Airflow/refs/heads/main/Bitbucket%20Images/Ec2%20Connect%20to%20instance.png)
 1. Set the instance state to "Running".
 2. Use the SSH client to connect to the instance with the command:
    ```bash
@@ -147,7 +147,7 @@ Save the displayed username and password for logging into the Airflow web interf
 ---
 
 ## Setting Up S3
-![S3](Bitbucket Images/S3_bucket_output.png)
+![S3](https://raw.githubusercontent.com/chaithanyakasi27/ETL-Pipeline-with-Airflow/refs/heads/main/Bitbucket%20Images/S3_bucket_output.png)
 
 1. Create an S3 bucket and organize the folder structure.
 2. Copy the S3 folder URL and paste it into the `Twitter_ETL.py` file.
@@ -155,7 +155,7 @@ Save the displayed username and password for logging into the Airflow web interf
 ---
 
 ## Integrating Airflow and the Pipeline
-![Airflow](Bitbucket Images/Dag_tiggers.png)
+![Airflow](https://raw.githubusercontent.com/chaithanyakasi27/ETL-Pipeline-with-Airflow/refs/heads/main/Bitbucket%20Images/Dag_tiggers.png)
 
 1. Create a DAG Python file and upload it to Airflow.
 2. Use the following steps to structure the pipeline:
